@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="The Road — Premium travel tours around the world. Explore wild forests, rivers, and island beaches with expert guides."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Road — Premium Travel Tours</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <div class="open-navbar-icon navbar-icon center" id="open-nav-btn">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar">
+          <div class="close-navbar-icon navbar-icon center" id="close-nav-btn">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+          </div>
+          <div class="nav-list">
+            <a href="#hero" class="nav-link center">Home</a>
+            <a href="#tours" class="nav-link center">Tours</a>
+            <a href="#stories" class="nav-link center">Stories</a>
+            <a href="#contact" class="nav-link center">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <!-- End of Navbar -->
+
+      <!-- Header -->
+      <header class="header center" id="hero">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+          <div class="logo">
+            <h2>
+              <span class="center">t</span>
+              <span class="center">h</span>
+              <span class="center">e</span>
+              <span class="center">r</span>
+              <span class="center">o</span>
+              <span class="center">a</span>
+              <span class="center">d</span>
+            </h2>
+          </div>
+          <div class="header-text">
+            <p class="header-tagline">Explore • Dream • Discover</p>
+            <h1 class="heading">Around the world</h1>
+            <p class="header-paragraph">
+              "Traveling — it leaves you speechless, then turns you into a
+              storyteller."
+            </p>
+            <a href="#tours" class="cta-button" id="cta-explore">Explore Tours</a>
+          </div>
+        </div>
+        <img
+          src="images/air-balloon.png"
+          alt="Hot air balloon floating"
+          class="header-image"
+        />
+      </header>
+      <!-- End of Header -->
+
+      <!-- Popular tours -->
+      <section class="popular-tours" id="tours">
+        <div class="section-label">Popular Destinations</div>
+        <h2 class="popular-tours-heading">The Most Popular Tours</h2>
+        <p class="section-subtitle">Handpicked adventures curated by our expert travel guides</p>
+        <div class="cards-wrapper">
+          <div class="card" id="card-forest">
+            <div class="front-side">
+              <div class="card-image-wrapper">
+                <img src="images/forest.jpg" alt="Forest tour" class="card-image" />
+                <div class="card-badge">Popular</div>
+              </div>
+              <h3 class="tour-name">The Wild Forest</h3>
+              <ul class="card-list">
+                <li class="card-list-item">
+                  <span class="card-icon">📅</span> 7 days tour
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">👥</span> Up to 20 people
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">🧭</span> 4 tour guides
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">⛺</span> Sleep in private tents
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">⚡</span> Difficulty: medium
+                </li>
+              </ul>
+              <button class="navigation-button" id="btn-forest-price">View Price →</button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button" id="btn-forest-back">← Back</button>
+              <p class="price-label">Starting from</p>
+              <h3 class="tour-price">$399</h3>
+              <button class="card-button" id="btn-forest-book">Book Now</button>
+            </div>
+          </div>
+          <div class="card" id="card-river">
+            <div class="front-side">
+              <div class="card-image-wrapper">
+                <img src="images/river.jpg" alt="River tour" class="card-image" />
+                <div class="card-badge featured">Featured</div>
+              </div>
+              <h3 class="tour-name">Along the River</h3>
+              <ul class="card-list">
+                <li class="card-list-item">
+                  <span class="card-icon">📅</span> 9 days tour
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">👥</span> Up to 30 people
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">🧭</span> 7 tour guides
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">⛺</span> Sleep in private tents
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">⚡</span> Difficulty: hard
+                </li>
+              </ul>
+              <button class="navigation-button" id="btn-river-price">View Price →</button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button" id="btn-river-back">← Back</button>
+              <p class="price-label">Starting from</p>
+              <h3 class="tour-price">$499</h3>
+              <button class="card-button" id="btn-river-book">Book Now</button>
+            </div>
+          </div>
+          <div class="card" id="card-sea">
+            <div class="front-side">
+              <div class="card-image-wrapper">
+                <img src="images/sea.jpg" alt="Sea tour" class="card-image" />
+                <div class="card-badge">New</div>
+              </div>
+              <h3 class="tour-name">The Island Beach</h3>
+              <ul class="card-list">
+                <li class="card-list-item">
+                  <span class="card-icon">📅</span> 5 days tour
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">👥</span> Up to 40 people
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">🧭</span> 8 tour guides
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">🏨</span> Sleep in hotel
+                </li>
+                <li class="card-list-item">
+                  <span class="card-icon">⚡</span> Difficulty: easy
+                </li>
+              </ul>
+              <button class="navigation-button" id="btn-sea-price">View Price →</button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button" id="btn-sea-back">← Back</button>
+              <p class="price-label">Starting from</p>
+              <h3 class="tour-price">$599</h3>
+              <button class="card-button" id="btn-sea-book">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Popular tours -->
+
+      <!-- Stories -->
+      <section class="stories" id="stories">
+        <div class="video-container">
+          <video class="bg-video" autoplay muted loop playsinline>
+            <source src="https://i.imgur.com/eFQiGDl.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="stories-header">
+          <div class="section-label light">Testimonials</div>
+          <h2 class="stories-heading">What Our Travelers Say</h2>
+        </div>
+        <div class="stories-wrapper">
+          <div class="story-bg">
+            <div class="story">
+              <img
+                src="images/story-img-1.jpg"
+                alt="Sarah — happy traveler"
+                class="story-image"
+              />
+              <div class="story-text">
+                <div class="story-stars">★★★★★</div>
+                <h3 class="story-title">
+                  These were the best days of this year
+                </h3>
+                <p class="story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto quas, repudiandae veritatis nam mollitia cumque
+                  distinctio, quia aperiam aliquid at consequuntur libero
+                  quisquam facilis laborum inventore repellat perspiciatis vel
+                  fugiat.
+                </p>
+                <p class="story-author">— Sarah M.</p>
+              </div>
+            </div>
+          </div>
+          <div class="story-bg">
+            <div class="story">
+              <img
+                src="images/story-img-2.jpg"
+                alt="James — happy traveler"
+                class="story-image"
+              />
+              <div class="story-text">
+                <div class="story-stars">★★★★★</div>
+                <h3 class="story-title">I enjoyed this great tour</h3>
+                <p class="story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto quas, repudiandae veritatis nam mollitia cumque
+                  distinctio, quia aperiam aliquid at consequuntur libero
+                  quisquam facilis laborum inventore repellat perspiciatis vel
+                  fugiat.
+                </p>
+                <p class="story-author">— James K.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Stories -->
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="contact-inner">
+          <div class="contact-info">
+            <div class="section-label">Get in Touch</div>
+            <h2 class="contact-heading">Let's Plan Your Next Adventure</h2>
+            <p class="contact-desc">
+              Have a question or ready to book? Reach out and our travel experts
+              will get back to you within 24 hours.
+            </p>
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">📧</span>
+                <span>hello@theroad.travel</span>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">📞</span>
+                <span>+1 (555) 123-4567</span>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">📍</span>
+                <span>123 Travel Street, Adventure City</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="input-group">
+              <input
+                type="text"
+                class="contact-input"
+                id="input-name"
+                placeholder=" "
+                required
+              />
+              <label for="input-name">Full Name *</label>
+            </div>
+            <div class="input-groups">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="contact-input"
+                  id="input-email"
+                  placeholder=" "
+                  required
+                />
+                <label for="input-email">Email *</label>
+              </div>
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="contact-input"
+                  id="input-phone"
+                  placeholder=" "
+                />
+                <label for="input-phone">Phone</label>
+              </div>
+            </div>
+            <div class="input-group">
+              <textarea
+                class="contact-input form-textarea"
+                id="input-message"
+                placeholder=" "
+              ></textarea>
+              <label for="input-message">Message</label>
+            </div>
+            <button type="submit" class="form-btn" id="btn-submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <!-- End of Contact -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h3 class="footer-logo">theroad</h3>
+            <p class="footer-tagline">Your journey starts here.</p>
+          </div>
+          <div class="footer-list">
+            <a href="#hero" class="footer-link">Home</a>
+            <a href="#tours" class="footer-link">Tours</a>
+            <a href="#stories" class="footer-link">Stories</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-paragraph">
+            &copy; 2026 The Road. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
